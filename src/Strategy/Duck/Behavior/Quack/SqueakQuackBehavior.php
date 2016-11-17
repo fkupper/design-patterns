@@ -7,13 +7,12 @@ use Strategy\Duck\Behavior\BaseInterfaces\QuackInterfaceBehavior;
 
 /**
  * For rubber ducks.
+ * 
  * @author kupper
- *
+ *        
  */
-class SqueakQuackBehavior implements QuackInterfaceBehavior
-{
-    public function quack()
-    {
-        Utils::echoln("Squeak");
-    }
+class SqueakQuackBehavior implements QuackInterfaceBehavior {
+	public function quack() {
+		Utils::echoln ( "Squeak" );
+	}
 }
