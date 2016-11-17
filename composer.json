@@ -1,0 +1,14 @@
+{
+    "name": "fkupper/head-first-design-patterns",
+    "description": "PHP implementation from \"Head First Design Patterns\" of O'Reilly",
+    "authors": [
+        {
+            "name": "Fernando Küpper",
+            "email": "fernando@kupper.com.br"
+        }
+    ],    
+    "autoload": {
+        "psr-4": { "": "src/" }
+	    }
+	
+}
