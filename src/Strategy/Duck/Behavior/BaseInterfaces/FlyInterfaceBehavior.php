@@ -1,6 +1,5 @@
 <?php
-
-namespace Strategy\Duck\Behavior\Interfaces;
+namespace Strategy\Duck\Behavior\BaseInterfaces;
 
 
 /**

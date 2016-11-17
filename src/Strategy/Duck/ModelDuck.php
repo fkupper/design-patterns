@@ -4,7 +4,7 @@ namespace Strategy\Duck;
 
 
 use Strategy\Duck\Behavior\Fly\FlyNoWayBehavior;
-use Strategy\Duck\Behavior\Quack\SilentQuackBehavior;
+use Strategy\Duck\Behavior\Quack\MuteQuackBehavior;
 use Common\Utils;
 /**
  * The Model duck extends AbstractDuck and implements its own display.
@@ -20,7 +20,7 @@ class ModelDuck extends AbstractDuck
 		// model duck cannot fly       
         $this->setFlyBehavior(new FlyNoWayBehavior());
         // and cannot quack 
-        $this->setQuackBehavior(new SilentQuackBehavior());
+        $this->setQuackBehavior(new MuteQuackBehavior());
     }
 
     public function display()

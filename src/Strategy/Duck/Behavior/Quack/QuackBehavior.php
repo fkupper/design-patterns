@@ -3,7 +3,7 @@
 namespace Strategy\Duck\Behavior\Quack;
 
 use Common\Utils;
-use Strategy\Duck\Behavior\Interfaces\QuackInterfaceBehavior;
+use Strategy\Duck\Behavior\BaseInterfaces\QuackInterfaceBehavior;
 
 /**
  * For quacking ducks.

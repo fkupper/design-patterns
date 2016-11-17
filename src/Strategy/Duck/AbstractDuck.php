@@ -3,7 +3,7 @@
 namespace Strategy\Duck;
 
 
-use Strategy\Duck\Behavior\Interfaces\{QuackInterfaceBehavior, FlyInterfaceBehavior};
+use Strategy\Duck\Behavior\BaseInterfaces\{QuackInterfaceBehavior, FlyInterfaceBehavior};
 use Common\Utils;
 
 /**

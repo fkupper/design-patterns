@@ -3,7 +3,7 @@
 namespace Strategy\Duck\Behavior\Fly;
 
 use Common\Utils;
-use Strategy\Duck\Behavior\Interfaces\FlyInterfaceBehavior;
+use Strategy\Duck\Behavior\BaseInterfaces\FlyInterfaceBehavior;
 
 
 /**

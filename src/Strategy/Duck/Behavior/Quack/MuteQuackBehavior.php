@@ -3,14 +3,14 @@
 namespace Strategy\Duck\Behavior\Quack;
 
 use Common\Utils;
-use Strategy\Duck\Behavior\Interfaces\QuackInterfaceBehavior;
+use Strategy\Duck\Behavior\BaseInterfaces\QuackInterfaceBehavior;
 
 /**
  * For ducks that cannot quack.
  * @author kupper
  *
  */
-class SilentQuackBehavior implements QuackInterfaceBehavior
+class MuteQuackBehavior implements QuackInterfaceBehavior
 {
     public function quack()
     {
