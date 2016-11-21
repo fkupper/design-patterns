@@ -25,6 +25,10 @@ php run.php -p={pattern}
 ```
 php run.php -p=strategy
 ```
+####Observer Pattern
+```
+php run.php -p=observer
+```
 
 ## Unit Tests
 

@@ -2,7 +2,7 @@
 
 namespace Strategy;
 
-class Main {
+class RunDuckSimulator {
 	public static function startSim() {
 		$duckSim = new DuckSim ();
 		$duckSim->startDucks ();
