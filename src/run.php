@@ -2,6 +2,7 @@
 use Common\Utils;
 use Strategy\RunDuckSimulator;
 use Observer\Weather\WeatherStation;
+use Decorator\Shop\StarbuzzCoffee;
 
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -18,6 +19,10 @@ foreach ($argv as $arg) {
 		case '-p=observer':
 			Utils::echoln("===== Starting Observer Pattern POC =====");
 			WeatherStation::main();		
+
+		case '-p=decorator':
+			Utils::echoln("===== Starting Decorator Pattern POC =====");
+			StarbuzzCoffee::main();
 	}
 	
 }
